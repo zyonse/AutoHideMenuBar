@@ -11,7 +11,11 @@ import SwiftUI
 struct hide_mac_menu_barApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavView()
         }
     }
+}
+
+#Preview {
+    NavView()
 }
