@@ -91,7 +91,7 @@
 			dependencies = (
 			);
 			name = AutoHideMenuBar;
-			productName = "hide-mac-menu-bar";
+			productName = "AutoHideMenuBar";
 			productReference = 8D274E952B86A502004DA4D6 /* AutoHideMenuBar.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -280,12 +280,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "hide-mac-menu-bar/hide_mac_menu_bar.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "AutoHideMenuBar/AutoHideMenuBar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"hide-mac-menu-bar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AutoHideMenuBar/Preview Content\"";
 				DEVELOPMENT_TEAM = C5SF76V9B7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -296,7 +296,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zyonse.hide-mac-menu-bar";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyonse.AutoHideMenuBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,12 +308,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "hide-mac-menu-bar/hide_mac_menu_bar.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "AutoHideMenuBar/AutoHideMenuBar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"hide-mac-menu-bar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AutoHideMenuBar/Preview Content\"";
 				DEVELOPMENT_TEAM = C5SF76V9B7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -324,7 +324,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zyonse.hide-mac-menu-bar";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyonse.AutoHideMenuBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
