@@ -33,7 +33,7 @@ struct SettingsView: View {
             }
             Text("Current value: " + getMenuBar(bundleID: app))
         }
-
+        .padding()
     }
 }
 

@@ -1,0 +1,12 @@
+name: Xcode
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build Project
+      run: xcodebuild build -project AutoHideMenuBar.xcodeproj CODE_SIGNING_ALLOWED="NO"

@@ -12,7 +12,8 @@ struct NavView: View {
         TabView {
             ContentView()
                 .tabItem {
-                    Label("Applications", systemImage: "apps.ipad.landscape")
+                    Image(systemName: "apps.ipad.landscape")
+                    Text("Applications")
                 }
             SettingsView()
                 .tabItem {
