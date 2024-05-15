@@ -1,6 +1,6 @@
 //
 //  SettingsView.swift
-//  hide-mac-menu-bar
+//  AutoHideMenuBar
 //
 //  Created by Gavin Zyonse on 2/23/24.
 //
@@ -29,7 +29,7 @@ struct SettingsView: View {
         VStack {
             let app = "com.microsoft.VSCode"
             Button("Set menubar") {
-                setMenuBar(bundleID: app, state: false)
+                setMenuBar(bundleID: app, state: true)
             }
             Text("Current value: " + getMenuBar(bundleID: app))
         }

@@ -1,6 +1,6 @@
 //
-//  hide_mac_menu_barApp.swift
-//  hide-mac-menu-bar
+//  AutoHideMenuBarApp.swift
+//  AutoHideMenuBar
 //
 //  Created by Gavin Zyonse on 2/21/24.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct hide_mac_menu_barApp: App {
+struct AutoHideMenuBarApp: App {
     var body: some Scene {
         WindowGroup {
             NavView()

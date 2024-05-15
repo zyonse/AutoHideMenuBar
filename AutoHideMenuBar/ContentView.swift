@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  hide-mac-menu-bar
+//  AutoHideMenuBar
 //
 //  Created by Gavin Zyonse on 2/21/24.
 //

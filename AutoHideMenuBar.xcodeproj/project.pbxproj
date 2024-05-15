@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D274E992B86A502004DA4D6 /* hide_mac_menu_barApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D274E982B86A502004DA4D6 /* hide_mac_menu_barApp.swift */; };
+		8D274E992B86A502004DA4D6 /* AutoHideMenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D274E982B86A502004DA4D6 /* AutoHideMenuBarApp.swift */; };
 		8D274E9B2B86A502004DA4D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D274E9A2B86A502004DA4D6 /* ContentView.swift */; };
 		8D274E9D2B86A503004DA4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D274E9C2B86A503004DA4D6 /* Assets.xcassets */; };
 		8D274EA02B86A503004DA4D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D274E9F2B86A503004DA4D6 /* Preview Assets.xcassets */; };
@@ -16,12 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D274E952B86A502004DA4D6 /* hide-mac-menu-bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hide-mac-menu-bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D274E982B86A502004DA4D6 /* hide_mac_menu_barApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hide_mac_menu_barApp.swift; sourceTree = "<group>"; };
+		8D274E952B86A502004DA4D6 /* AutoHideMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoHideMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D274E982B86A502004DA4D6 /* AutoHideMenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHideMenuBarApp.swift; sourceTree = "<group>"; };
 		8D274E9A2B86A502004DA4D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D274E9C2B86A503004DA4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D274E9F2B86A503004DA4D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8D274EA12B86A503004DA4D6 /* hide_mac_menu_bar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hide_mac_menu_bar.entitlements; sourceTree = "<group>"; };
+		8D274EA12B86A503004DA4D6 /* AutoHideMenuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoHideMenuBar.entitlements; sourceTree = "<group>"; };
 		8D35C43B2B8917B800C3BCF3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		8D35C43D2B89260000C3BCF3 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,7 +40,7 @@
 		8D274E8C2B86A502004DA4D6 = {
 			isa = PBXGroup;
 			children = (
-				8D274E972B86A502004DA4D6 /* hide-mac-menu-bar */,
+				8D274E972B86A502004DA4D6 /* AutoHideMenuBar */,
 				8D274E962B86A502004DA4D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +48,23 @@
 		8D274E962B86A502004DA4D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D274E952B86A502004DA4D6 /* hide-mac-menu-bar.app */,
+				8D274E952B86A502004DA4D6 /* AutoHideMenuBar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D274E972B86A502004DA4D6 /* hide-mac-menu-bar */ = {
+		8D274E972B86A502004DA4D6 /* AutoHideMenuBar */ = {
 			isa = PBXGroup;
 			children = (
-				8D274E982B86A502004DA4D6 /* hide_mac_menu_barApp.swift */,
+				8D274E982B86A502004DA4D6 /* AutoHideMenuBarApp.swift */,
 				8D35C43D2B89260000C3BCF3 /* NavView.swift */,
 				8D274E9A2B86A502004DA4D6 /* ContentView.swift */,
 				8D35C43B2B8917B800C3BCF3 /* SettingsView.swift */,
 				8D274E9C2B86A503004DA4D6 /* Assets.xcassets */,
-				8D274EA12B86A503004DA4D6 /* hide_mac_menu_bar.entitlements */,
+				8D274EA12B86A503004DA4D6 /* AutoHideMenuBar.entitlements */,
 				8D274E9E2B86A503004DA4D6 /* Preview Content */,
 			);
-			path = "hide-mac-menu-bar";
+			path = AutoHideMenuBar;
 			sourceTree = "<group>";
 		};
 		8D274E9E2B86A503004DA4D6 /* Preview Content */ = {
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D274E942B86A502004DA4D6 /* hide-mac-menu-bar */ = {
+		8D274E942B86A502004DA4D6 /* AutoHideMenuBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D274EA42B86A503004DA4D6 /* Build configuration list for PBXNativeTarget "hide-mac-menu-bar" */;
+			buildConfigurationList = 8D274EA42B86A503004DA4D6 /* Build configuration list for PBXNativeTarget "AutoHideMenuBar" */;
 			buildPhases = (
 				8D274E912B86A502004DA4D6 /* Sources */,
 				8D274E922B86A502004DA4D6 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = "hide-mac-menu-bar";
+			name = AutoHideMenuBar;
 			productName = "hide-mac-menu-bar";
-			productReference = 8D274E952B86A502004DA4D6 /* hide-mac-menu-bar.app */;
+			productReference = 8D274E952B86A502004DA4D6 /* AutoHideMenuBar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,14 +103,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					8D274E942B86A502004DA4D6 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 8D274E902B86A502004DA4D6 /* Build configuration list for PBXProject "hide-mac-menu-bar" */;
+			buildConfigurationList = 8D274E902B86A502004DA4D6 /* Build configuration list for PBXProject "AutoHideMenuBar" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D274E942B86A502004DA4D6 /* hide-mac-menu-bar */,
+				8D274E942B86A502004DA4D6 /* AutoHideMenuBar */,
 			);
 		};
 /* End PBXProject section */
@@ -148,7 +148,7 @@
 				8D35C43E2B89260000C3BCF3 /* NavView.swift in Sources */,
 				8D35C43C2B8917B900C3BCF3 /* SettingsView.swift in Sources */,
 				8D274E9B2B86A502004DA4D6 /* ContentView.swift in Sources */,
-				8D274E992B86A502004DA4D6 /* hide_mac_menu_barApp.swift in Sources */,
+				8D274E992B86A502004DA4D6 /* AutoHideMenuBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +189,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -252,6 +253,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -282,6 +284,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"hide-mac-menu-bar/Preview Content\"";
 				DEVELOPMENT_TEAM = C5SF76V9B7;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -309,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"hide-mac-menu-bar/Preview Content\"";
 				DEVELOPMENT_TEAM = C5SF76V9B7;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -330,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D274E902B86A502004DA4D6 /* Build configuration list for PBXProject "hide-mac-menu-bar" */ = {
+		8D274E902B86A502004DA4D6 /* Build configuration list for PBXProject "AutoHideMenuBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D274EA22B86A503004DA4D6 /* Debug */,
@@ -339,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D274EA42B86A503004DA4D6 /* Build configuration list for PBXNativeTarget "hide-mac-menu-bar" */ = {
+		8D274EA42B86A503004DA4D6 /* Build configuration list for PBXNativeTarget "AutoHideMenuBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D274EA52B86A503004DA4D6 /* Debug */,

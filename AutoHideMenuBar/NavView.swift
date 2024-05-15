@@ -1,6 +1,6 @@
 //
 //  NavView.swift
-//  hide-mac-menu-bar
+//  AutoHideMenuBar
 //
 //  Created by Gavin Zyonse on 2/23/24.
 //
