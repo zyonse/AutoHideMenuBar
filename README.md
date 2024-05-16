@@ -7,4 +7,4 @@ AutoHideMenuBar is a Swift app that allows you to configure the "Automatically h
 - Automatically hide and show the menu bar on a per-app basis
 - Shows a list of installed apps and their current setting
 - Simple and intuitive user interface
-- Lightweight and efficient (doesn't need to run in the background)
+- Lightweight and efficient (doesn't run in the background)

@@ -7,20 +7,33 @@
 
 import SwiftUI
 
+enum Tab: Hashable {
+    case apps
+    case settings
+}
+
 struct NavView: View {
+    @State private var activeTab: Tab? = .apps
+    
     var body: some View {
-        TabView {
-            ContentView()
-                .tabItem {
-                    Image(systemName: "apps.ipad.landscape")
-                    Text("Applications")
+        NavigationSplitView {
+            List(selection: $activeTab) {
+                NavigationLink(value: Tab.apps) {
+                    Label("Apps", systemImage: "list.bullet.rectangle")
                 }
-            SettingsView()
-                .tabItem {
+                
+                NavigationLink(value: Tab.settings) {
                     Label("Settings", systemImage: "gear")
                 }
+            }
+        } detail: {
+            switch activeTab {
+            case .apps: ContentView()
+            case .settings: SettingsView()
+            case .none:
+                Text("Select a tab")
+            }
         }
-        .padding()
     }
 }
 
