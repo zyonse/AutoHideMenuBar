@@ -18,6 +18,16 @@ struct ContentView: View {
                 HStack {
                     Image(nsImage: (app.icon ?? NSImage(systemSymbolName: "questionmark.app", accessibilityDescription: nil))!)
                     Text(app.localizedName ?? "Unknown name")
+                    if (app.bundleIdentifier != nil) {
+                        let state = getMenuBar(bundleID: app.bundleIdentifier!)
+                        if (state != nil) {
+                            Text(String(state!))
+                        } else {
+                            Text("nil")
+                        }
+                    } else {
+                        Text("Bundle ID not found")
+                    }
                     //Toggle("", isOn: )
                 }
             }

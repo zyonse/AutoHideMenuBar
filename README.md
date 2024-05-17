@@ -1,6 +1,6 @@
-# AutoHideMenuBar
+# Auto Hide Menu Bar
 
-AutoHideMenuBar is a Swift app that allows you to configure the "Automatically hide and show the menu bar" setting on a per-app basis. This setting normally only has a global toggle in the system settings app.
+Auto Hide Menu Bar is a macOS app that allows you to configure the "Automatically hide and show the menu bar" setting on a per-app basis. This setting normally only has a global toggle in the system settings app.
 
 ## Features
 

@@ -17,11 +17,12 @@ func setMenuBar(bundleID: String, state: Bool) {
 }
 
 // Get current menu bar state for an application by bundleID
-func getMenuBar(bundleID: String) -> String {
+func getMenuBar(bundleID: String) -> Bool? {
     let extAppDefaults = UserDefaults(suiteName: bundleID)
-    if let state = extAppDefaults?.object(forKey: "AppleMenuBarVisibleInFullscreen") as? Bool {
-        return String(state)
+    let state = extAppDefaults?.object(forKey: "AppleMenuBarVisibleInFullscreen")
+    if (state != nil) {
+        return state as? Bool
     } else {
-        return ("Could not get state")
+        return nil
     }
 }
