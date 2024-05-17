@@ -1,6 +1,6 @@
 //
 //  AutoHideMenuBarApp.swift
-//  AutoHideMenuBar
+//  Auto Hide Menu Bar
 //
 //  Created by Gavin Zyonse on 2/21/24.
 //

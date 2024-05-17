@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D274E942B86A502004DA4D6"
-               BuildableName = "AutoHideMenuBar.app"
-               BlueprintName = "AutoHideMenuBar"
+               BuildableName = "Auto Hide Menu Bar.app"
+               BlueprintName = "Auto Hide Menu Bar"
                ReferencedContainer = "container:AutoHideMenuBar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D274E942B86A502004DA4D6"
-            BuildableName = "AutoHideMenuBar.app"
-            BlueprintName = "AutoHideMenuBar"
+            BuildableName = "Auto Hide Menu Bar.app"
+            BlueprintName = "Auto Hide Menu Bar"
             ReferencedContainer = "container:AutoHideMenuBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D274E942B86A502004DA4D6"
-            BuildableName = "AutoHideMenuBar.app"
-            BlueprintName = "AutoHideMenuBar"
+            BuildableName = "Auto Hide Menu Bar.app"
+            BlueprintName = "Auto Hide Menu Bar"
             ReferencedContainer = "container:AutoHideMenuBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

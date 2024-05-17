@@ -1,6 +1,6 @@
 //
 //  NavView.swift
-//  AutoHideMenuBar
+//  Auto Hide Menu Bar
 //
 //  Created by Gavin Zyonse on 2/23/24.
 //
@@ -16,6 +16,7 @@ struct NavView: View {
     @State private var activeTab: Tab? = .apps
     
     var body: some View {
+        // Display sidebar using NavigationSplitView
         NavigationSplitView {
             List(selection: $activeTab) {
                 NavigationLink(value: Tab.apps) {
