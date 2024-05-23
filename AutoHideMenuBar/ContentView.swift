@@ -10,27 +10,27 @@ import SwiftUI
 struct ContentView: View {
     // Get list of apps with open windows
     private var apps = NSWorkspace.shared.runningApplications
+    @State private var searchText = ""
 
     var body: some View {
         VStack {
-            Text("TODO: Search bar")
             List(apps, id: \.self) { app in
                 HStack {
                     Image(nsImage: (app.icon ?? NSImage(systemSymbolName: "questionmark.app", accessibilityDescription: nil))!)
                     Text(app.localizedName ?? "Unknown name")
-                    if (app.bundleIdentifier != nil) {
+                    /*if (app.bundleIdentifier != nil) {
                         let state = getMenuBar(bundleID: app.bundleIdentifier!)
                         if (state != nil) {
                             Text(String(state!))
                         } else {
-                            Text("nil")
+                            Text("Not set")
                         }
-                    } else {
-                        Text("Bundle ID not found")
-                    }
+                    }*/
                     //Toggle("", isOn: )
                 }
             }
+            .searchable(text: $searchText)
+            .navigationTitle("Running Apps")
         }
         .padding()
     }

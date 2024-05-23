@@ -12,9 +12,10 @@ struct SettingsView: View {
         VStack {
             let app = "com.microsoft.VSCode"
             Button("Set menubar") {
-                setMenuBar(bundleID: app, state: false)
+                setMenuBar(bundleID: app, state: true)
             }
-            Text("Current value: todo")
+            let state = getMenuBar(bundleID: "com.apple.Notes")
+            Text("Current value: \(state!)")
         }
         .padding()
     }
