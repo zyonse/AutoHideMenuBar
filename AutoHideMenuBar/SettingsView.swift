@@ -14,8 +14,10 @@ struct SettingsView: View {
             Button("Set menubar") {
                 setMenuBar(bundleID: app, state: true)
             }
-            let state = getMenuBar(bundleID: "com.apple.Notes")
-            Text("Current value: \(state!)")
+            let state = getMenuBar(bundleID: "/Users/zyonse/Library/Containers/com.apple.Maps/Data/Library/Preferences/com.apple.Maps")
+            if (state != nil) {
+                Text("Current value: \(state!)")
+            }
         }
         .padding()
     }

@@ -9,6 +9,12 @@ import Foundation
 
 // Set menu bar state for an application by bundleID
 func setMenuBar(bundleID: String, state: Bool) {
+    CFPreferencesSetAppValue(
+        "AppleMenuBarVisibleInFullscreen" as CFString,
+        state as CFPropertyList,
+        bundleID as CFString
+    )
+    
     if let extAppDefaults = UserDefaults(suiteName: bundleID) {
         extAppDefaults.set(state, forKey: "AppleMenuBarVisibleInFullscreen")
     } else {
