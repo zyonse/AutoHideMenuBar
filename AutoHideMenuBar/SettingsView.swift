@@ -10,11 +10,11 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         VStack {
-            let app = "com.microsoft.VSCode"
+            let app = "com.apple.Notes"
             Button("Set menubar") {
                 setMenuBar(bundleID: app, state: true)
             }
-            let state = getMenuBar(bundleID: "/Users/zyonse/Library/Containers/com.apple.Maps/Data/Library/Preferences/com.apple.Maps")
+            let state = getMenuBar(bundleID: app)
             Text("Current value: \(String(describing: state))")
         }
         .padding()
