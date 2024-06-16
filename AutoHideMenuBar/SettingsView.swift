@@ -10,7 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         VStack {
-            let app = "com.apple.Notes"
+            let app = "com.apple.Safari"
             Button("Set menubar") {
                 setMenuBar(bundleID: app, state: true)
             }
