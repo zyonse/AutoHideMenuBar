@@ -17,7 +17,3 @@ This project is currently a work in progress until any releases are published.
 - [x] Retrieve list of running apps
 - [ ] Retrieve menu bar state of app by bundle ID
 - [ ] Set menu bar state of app by bundle ID
-
-### Useful docs
-https://forums.livecode.com/viewtopic.php?t=37510
-https://developer.apple.com/documentation/security/app_sandbox/accessing_files_from_the_macos_app_sandbox
