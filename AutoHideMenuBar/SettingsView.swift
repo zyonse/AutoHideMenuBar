@@ -10,9 +10,12 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         VStack {
-            let app = "com.apple.Safari"
-            Button("Set menubar") {
+            let app = "com.apple.Maps"
+            Button("Menu bar visible in fullscreen") {
                 setMenuBar(bundleID: app, state: true)
+            }
+            Button("Menu bar hidden in fullscreen") {
+                setMenuBar(bundleID: app, state: false)
             }
             let state = getMenuBar(bundleID: app)
             Text("Current value: \(String(describing: state))")
